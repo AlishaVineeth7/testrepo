@@ -15,11 +15,12 @@ import {
   Text,
   View,
 } from 'react-native';
+import MainStackNavigator from './app/components/AuthLoading';
 
 function App() {
 
   return (
-  <View></View>
+  <MainStackNavigator/>
   );
 }
 
